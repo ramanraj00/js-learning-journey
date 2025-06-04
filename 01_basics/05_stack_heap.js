@@ -19,8 +19,8 @@ let myYoutubename = "areyoubuffalo"
 let anothername = myYoutubename
 anothername = "chaiAurcode"
 
-console.log(myYoutubename);
-console.log(anothername);
+// console.log(myYoutubename);
+// console.log(anothername);
 
 
 // Example Heap
@@ -36,4 +36,4 @@ let userTwo = userOne
 userTwo.email = "raman@google.com"
 
 console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userTwo.email);

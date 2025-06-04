@@ -14,23 +14,23 @@ const gameName = new String (`Raman-rc-cc`)
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
-console.log(gameName.charAt(3));
-console.log(gameName.indexOf('m'));
+// console.log(gameName.charAt(3));
+// console.log(gameName.indexOf('m'));
 
 // const newString = gameName.substring(0,4)
 // console.log(newString);
 
-const anotherString = gameName.slice(-7,4)
-console.log(anotherString);
+// const anotherString = gameName.slice(-7,4)  => Not working i will try next time
+// console.log(anotherString);
 
-const newStringOne = "     raman     "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// const newStringOne = "     raman     "
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
 const url = "https://www.google.com/raman%20raj"
 
-console.log(url.replace('%20' , '-'));
+// console.log(url.replace('%20' , '-'));
 
-console.log(url.includes("Google"));
+// console.log(url.includes("Google"));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
