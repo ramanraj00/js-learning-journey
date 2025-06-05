@@ -11,16 +11,16 @@ const dc_heros = ["Batman" , "Flash" , "Superman"]
 // console.log(allHeros);
 
 // const all_new_heros = [...marvel_heros, ...dc_heros]
-// console.log(all_new_heros); => Spread Operator
+// console.log(all_new_heros); //=> Spread Operator
 
 const another_ar̥ray = [1 , 2 , 3,[4 ,5 ,6] , 7 , [6 , 7,[4 ,5]]]
 const real_another_array = another_ar̥ray.flat(Infinity)
-console.log(real_another_array);
+// console.log(real_another_array);
 
-console.log(Array.isArray("Raman"));
-console.log(Array.from("Raman"));
+// console.log(Array.isArray("Raman"));
+// console.log(Array.from("Raman"));
 
-console.log(Array.from({name: "Raman"}))  // Intrsting case it will give blank[]
+// console.log(Array.from({name: "Raman"}))  // Intrsting case it will give blank[]
 
 
 let score1 = 100
