@@ -9,7 +9,7 @@ console.log("N");
 
 }
 
-// sayMyName()
+sayMyName()
 
 function addTwoNumbers(number1, number2) {
 

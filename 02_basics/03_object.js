@@ -20,22 +20,21 @@ const JsUser = {
 // console.log(JsUser.email);
 // console.log(JsUser["email"]);
 // console.log(JsUser["full name"]);
-// console.log(JsUser[mySym]);
+// console.log(JsUser[mySym]);  // whats the point of using it?
 
 JsUser.email = "Ramanraj@chatgpt.com"
-// Object.freeze(JsUser)
+//  Object.freeze(JsUser)
 JsUser.email = "Raman@microsoft.com"
-console.log(JsUser);
+// console.log(JsUser);
 
 JsUser.greeting= function(){
     console.log("Hello Js User");
 }
 
 JsUser.greetingTwo= function(){
-    console.log(`Hello Js User, ${this.name}`);
+     console.log(`Hello Js User, ${this.name}`);
 }
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
 
-//
