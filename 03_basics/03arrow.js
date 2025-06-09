@@ -55,3 +55,4 @@ const user  = {
 const addTwo = (num1,num2) => ({username:"hitesh"})
 
 console.log(addTwo(2,8))
+
