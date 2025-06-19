@@ -22,7 +22,4 @@ map.set('Usa', "United State of America")
 map.set('Fr', "France")
 map.set('IN', "India")
 
-// for (const key in map){
-//     console.log(key);
-//}
- // Iske upar iteration nhi ho raha hai
+// gtyvuyguygy
