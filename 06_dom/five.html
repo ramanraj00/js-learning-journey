@@ -1,0 +1,59 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <h2 style="color: aliceblue;">Todo 1</h2>
+    <h2 style="color: aliceblue;">Todo 2</h2>
+    <h2 style="color: aliceblue;">Todo 3</h2>
+    <button onclick="deleteRandomTodo()">Delete Todo!</button>
+</body>
+<script>
+
+//     function addrandomtodo(){
+//     const element = document.querySelector("h2");
+//     element.innerHTML = "Something new";
+// }
+
+        function deleteRandomTodo(){
+            const element = document.querySelector("h2");
+            const parentalElement = element.parentNode;
+            parentalElement.removeChild(element);
+        }
+</script>
+</html>
+  -->
+<!-- =========================================================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="topdiv">
+        Hii there
+    </div>
+
+
+    <script>
+    const divEl = document.createElement("div");
+    divEl.innerHTML = "kallua";
+    
+    // Select the #topdiv element exactly as written in HTML
+    const parentEl = document.querySelector("#topdiv");
+    
+    parentEl.appendChild(divEl); // put the new div inside #topdiv
+</script>
+
+</body>
+
+
+</html>

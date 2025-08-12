@@ -48,3 +48,42 @@ function greet (){
 }
 let user = greet()
 // console.log("His name is "+user.name );
+
+
+    // sum from 1 to n.
+
+function sum (n) {
+    let ans = 0;
+    for (let i = 1; i <= n; i++) {
+        ans = ans + i
+    }
+    return ans; 
+
+}
+
+const ans = sum(100);
+// console.log(ans);
+
+// Simple question to imrove logic
+
+let x = 5;
+let y = 6;
+
+// console.log(x + y);
+
+// Q2
+
+function name () {
+
+}
+
+// Q3 
+
+// Using let we can declare a variable or name and with var we also do the same but when we declare a var it strated working in globale scope and when we declare let it not work in global scope so its safe to used 
+
+// Q4 How do you write a for loop that prints numbers from 1 to 5?
+ for (i = 0; i <= 5; i++) {
+    console.log(i);
+ }
+
+arr = [0,1,2,3,4]
