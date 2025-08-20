@@ -86,12 +86,33 @@
 // const luser = {
 // }
 
-function handleObject(anyObject){
-    console.log(`Usename is ${anyObject.username} and price is ${anyObject.price}`);
-}
+// function handleObject(anyObject){
+//     console.log(`Usename is ${anyObject.username} and price is ${anyObject.price}`);
+// }
 
-handleObject ({
-    username : "Sam" ,
-    price: 399
-})
+// handleObject ({
+//     username : "Sam" ,
+//     price: 399
+// })
+
+// function sum(a, b) {
+// 	return a + b;
+// }
+
+// let ans = sum(2, 3)
+// console.log(ans);
+
+// function sum (n){
+//     let ans = 0;
+//     for(let i = 1; i<=n; i++){
+//         ans = ans + i;
+//     }
+
+//     return ans;
+
+// }
+
+//     const ans = sum(100);
+//     console.log(ans);
+
 

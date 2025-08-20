@@ -62,8 +62,9 @@
         border: 1px solid gray;
         border-radius: 8px;
         backdrop-filter: blur(10px);
-        width: 18rem;
-        height: 5rem;
+        width: 300px;
+        height: 200px;
+        overflow-y: auto;
         margin-top: 1.9rem;
         /* background: transparent; */
         background: linear-gradient(to bottom, #d0e17d, #b5c96d);
@@ -90,6 +91,7 @@
       gap: 1rem;
       margin-top: 1.5rem;
       border-radius: 50rem;
+      margin-bottom: 0.5rem;
      
     }
 

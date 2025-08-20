@@ -23,8 +23,8 @@
 
           <div id="buttons">
             <button onclick="AddTodo()" class="threebuttons">AddTodo</button>
-            <!-- <button class="threebuttons">DeleteTodo</button>
-            <button class="threebuttons">Edit Todo</button> -->
+            <button onclick="removetodo()"  class="threebuttons">DeleteTodo</button>
+            <!-- <button class="threebuttons">Edit Todo</button> -->
           </div>
 
 
@@ -45,8 +45,9 @@
     render()
   }
 
-  function removetodo(){
-    
+  function removetodo() {
+   todos.pop();
+   render()
   }
 
   function todocomponent (todo){
@@ -64,6 +65,10 @@
     const element = todocomponent(todos[i]);
   document.querySelector("#glassscreen").appendChild(element);
   }}
+
+  const container = document.querySelector("#glassscreen");
+  container.scrollTop = container.scrollHeight;
+  
 
 </script>
 
